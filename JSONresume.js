@@ -1,3 +1,5 @@
+//Own Resume data file in JSON format 
+
 const studentResume = 
 {
   "name": "Karthikeyan Jaganathan",
@@ -13,9 +15,9 @@ const studentResume =
   "Hobby":["Watching automobile news with technical info","playing cricket"],
 }
 
-var studentkeys=Object.keys(studentResume)
+//JSON iterated over all loops (for, for in, for of, forEach)
 
-var studentvales=Object.values(studentResume)
+var studentkeys=Object.keys(studentResume)
 
 
 console.log('****************for****************')
